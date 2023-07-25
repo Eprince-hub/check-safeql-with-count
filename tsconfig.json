@@ -6,7 +6,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "esModuleInterop": true,
+    "lib": ["es2020", "dom"],
+    "module": "esnext",
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2022",
+    "outDir": "dist"
   },
   "include": [
     "**/.eslintrc.cjs",
